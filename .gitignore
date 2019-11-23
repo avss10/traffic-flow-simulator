@@ -1,0 +1,19 @@
+.fbprefs
+target
+.settings/
+.project
+.classpath
+.clover
+*.orig
+bin
+/src/test/resources/*
+
+# IntelliJ project files
+.idea
+*.iml
+*.ipr
+*.iws
+
+pom.xml.releaseBackup
+
+output/
