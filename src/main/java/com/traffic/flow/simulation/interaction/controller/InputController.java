@@ -57,6 +57,7 @@ public class InputController {
         imageIcon = new ImageIcon(newimg); // transform it back
         JLabel imageLabel = new JLabel(imageIcon);
 
+        JLabel addressLabel = new JLabel("Enter the address: ");
         JLabel numLabel = new JLabel("Number of Vehicles: ");
         JLabel simLabel = new JLabel("Simulation Steps: ");
         JLabel tsLabel = new JLabel("Time per Step: ");
@@ -109,6 +110,11 @@ public class InputController {
         gbc.gridy = 0;
         gbc.gridwidth = 1;
         topPanel.add(imageLabel, gbc);
+
+        gbc.gridx = 0;
+        gbc.gridy = 1;
+        gbc.gridwidth = 1;
+        topPanel.add(addressLabel, gbc);
 
         gbc.gridx = 0;
         gbc.gridy = 2;

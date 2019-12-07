@@ -12,7 +12,7 @@ import com.vividsolutions.jts.geom.Coordinate;
 import lombok.Data;
 
 /**
- * Minimzing overall brake inducing by lane vehicle.
+ * Minimizing overall brake inducing by lane vehicle.
  */
 public class MOBILVehicle extends LaneChangeBase implements MOBIL {
     private double p = politenessFactor;
